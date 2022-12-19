@@ -139,12 +139,14 @@
 
 .subsection {
     display: flex;
+    margin: 63px 150px;
 
 }
 
-.subsection img {
+.subsection-main-image {
     display: flex;
-    margin-top: 63px;
+
+    margin-right: 169.48px;
 }
 
 
@@ -168,8 +170,22 @@
     text-align: left;
 }
 
-.checkboxes {
+.right-div {
     display: flex;
-    justify-content: space-between;
+    font-family: 'Rubik';
+    font-size: normal;
+    font-weight:100px;
+    line-height: 30px;
+    letter-spacing: 0em;
 
+
+
+}
+
+.right-div img {
+    margin-right: 12.08px;
+}
+
+.checkboxes li+li {
+    margin-top: 15px;
 }
